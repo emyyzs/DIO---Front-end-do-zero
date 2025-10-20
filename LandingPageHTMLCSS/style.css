@@ -1,0 +1,178 @@
+/* Aplica o estilo no header/banner */
+header.banner {
+  width: 100%;
+  height: 600px; /* ajuste conforme você quiser */
+  background-image: url("assets/images/banner.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background-color: rgba(0, 0, 0, 0.9); /* 60% preto — ajusta pra mais ou menos escuro */
+}
+
+
+.banner-content {
+  position: relative;
+  z-index: 2; /* para ficar acima da sobreposição */
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+
+  
+}
+
+.banner-content h1 {
+  font-size: 3rem; /* ajusta conforme necessidade */
+  margin-bottom: 15px;
+  color:#33A8DB;
+  text-transform: uppercase;  
+}
+
+.banner-content p {
+  font-size: 1.25rem;
+  color: #f5f5f5;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.banner-content button {
+
+ background-image: url("assets/images/banner.png");
+  background-color: rgba(0, 0, 0, 0.8); /* 60% preto — ajusta pra mais ou menos escuro */
+  border: 3px solid #33A8DB; 
+  padding: 14px 28px;
+  font-size: 1.100rem;
+  cursor: pointer;
+  border-radius: 1px;
+  text-transform: uppercase;          /* Texto em maiúsculas */
+  font-weight: 700;                   /* Negrito */
+  letter-spacing: 2px;                /* Espaçamento entre letras */
+  color:#33A8DB;
+ 
+}
+
+.banner-content button:hover {
+  background-color: #33A8DB;
+  transform: scale(1.05); 
+
+}
+/* Estilo da seção inteira */
+#course-content {
+  background-color: #000; /* fundo escuro */
+  color: #f0f0f0; /* texto claro */
+  padding: 60px 20px;
+  text-align: center;
+ 
+
+}
+
+/* Título principal */
+#course-content h2 {
+  font-size: 2.5rem;
+  color: #33A8DB; /* cor azul chamativa */
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;   
+}
+
+/* Parágrafo abaixo do título */
+#course-content p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+/* Lista de módulos */
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Cada módulo */
+.module {
+  background-color: rgba(255, 255, 255, 0.05); /* leve transparência */
+  border: 1px solid #33A8DB;
+  border-radius: 50px;
+  padding: 15px 30px;
+  width: 100%;
+  max-width: 600px;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: default;
+}
+
+/* Estilo do título dentro do módulo */
+.module span {
+  font-weight: bold;
+  color: #00aaff;
+  margin-right: 10px;
+}
+
+/* Efeito de hover no módulo */
+.module:hover {
+  background-color: rgba(0, 170, 255, 0.2);
+}
+/* Seção com imagem de fundo */
+#transform-world,
+.transform-world {
+  width: 100%;
+  height: 400px; /* ajuste a altura conforme necessário */
+  background-image: url("assets/images/woman-code.png");
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  background-color: rgba(0, 0, 0, 0.8); /* 60% preto — ajusta pra mais ou menos escuro */
+  justify-content:flex-start;
+  align-items: center;
+  opacity: .9;
+  color: #ffffff;
+
+}
+
+/* Texto dentro da seção */
+#transform-world p,
+.transform-world p {
+  position: relative;
+  z-index: 2; /* acima da sobreposição */
+  font-size: 2rem;
+  font-weight: 700;  
+  margin: 0;
+  text-shadow: 2px 3px #00aaff;
+
+}
+
+#professional-challenges {
+  background-color: #000;
+   padding: 60px 20px;
+  text-align: center;
+   justify-content: center;
+}
+#professional-challenges h2 {
+  background-color: rgba(255, 255, 255, 0.05); /* leve transparência */
+  color: #33A8DB;
+  text-align: center;
+  text-transform: uppercase;  
+  font-size: 2rem; 
+  letter-spacing: 5px; 
+}
+
+#professional-challenges p{
+  color: white;
+  text-align: center;
+  font-size: 1rem; 
+}
+footer {
+    text-align: center;
+    background-color: #000;
+}
+footer p {
+   color: white;
+   width: 100%;
+  height: 600%; 
+}
